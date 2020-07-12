@@ -53,7 +53,7 @@ function timeElapse(date){
 	// 	seconds = "0" + seconds;
 	// }
 
-	var endtime = new Date("2020/9/30,18:05:00"); //结束时间
+	var endtime = new Date("2020/7/25,9:00:00"); //结束时间
 	var nowtime = new Date(); //当前时间
 	var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
 	days = parseInt(lefttime / 3600 / 24);
